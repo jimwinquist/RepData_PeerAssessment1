@@ -71,7 +71,7 @@ qplot(interval, steps, data = activity.byInterval, geom = "line", xlab = "Interv
     ylab = "Average Number Of Steps")
 ```
 
-![plot of chunk timePlot, ](figure/timePlot__.png) 
+![plot of chunk timePlot](figure/timePlot.png) 
 
 
 Next we can calculate which interval, on average, contains the max number of 

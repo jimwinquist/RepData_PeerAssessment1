@@ -53,7 +53,7 @@ activity.byInterval <- aggregate(steps ~ interval, activity, mean, na.rm=TRUE)
 
 Now we can plot a time series by interval of the average number of steps taken.
 
-```{r timePlot, , echo=TRUE}
+```{r timePlot, echo=TRUE}
 library(ggplot2)
 qplot(interval, steps, data = activity.byInterval, geom = "line", 
       xlab = "Interval", ylab = "Average Number Of Steps")
